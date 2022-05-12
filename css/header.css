@@ -19,7 +19,7 @@ ul{
     list-style: none;
 }
 li{
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
 }
 .suggestions2{
     display: block;

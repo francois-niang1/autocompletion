@@ -15,15 +15,17 @@ h1{
 }
 
 input{
-    width: 15.625rem;
+    width: 400px;
     height: 30px;
+    font-size: clamp(0.5rem, 4vw, 1.7rem);
 }
 
 ul{
     list-style: none;
 }
 li{
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
+    font-size: clamp(0.5rem, 4vw, 1.5rem);
 }
 ul li:hover{
     text-decoration: underline;
