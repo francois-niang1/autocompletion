@@ -10,7 +10,7 @@
 </head>
 <body>
     <main>
-        <h1>Cherchez vos NBA All star Préféré !!!</h1>
+        <h1>Cherchez vos NBA All stars Préférés !!!</h1>
         <form action="pages/recherche.php" method="get">
             <section class="search-container">
                 <input type="text" name="player" id="player" placeholder="Rechercher un Joueur de NBA">
