@@ -15,18 +15,21 @@ $Players = $result->fetchAll();
 <head>
     <meta charset="UTF-8">
     <script src="../js/header.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/recherche.css">
     <title>Recherche</title>
 </head>
 <body>
-    <?php
-    require_once 'header.php';
-        if(isset($nomPlayer)){
-            foreach($Players as $Player): ?>
-            <div>
-                <a href="lien.php?id=<?= $Player['id']?>"> <?= $Player['nom']; ?></a><br>
-            </div>
-            <?php endforeach;
-        } ?>
+    <?= require_once 'header.php'; ?>
+    <main>
+        <article>
+            <?php
+                if(isset($nomPlayer)){
+                    foreach($Players as $Player): ?>
+                        <a href="lien.php?id=<?= $Player['id']?>"> <?= $Player['nom']; ?></a>
+                    <?php endforeach;
+                }
+            ?>
+        </article>
     </main>
 </body>
 </html>
