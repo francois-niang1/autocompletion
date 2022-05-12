@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100ù;
+    justify-content: center;
+}
+
+header nav a img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+header input{
+    width: 15.625rem;
+    height: 30px;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    transition: ease-in-out 0.5s;
+}
+.suggestions2{
+    display: block;
+    border-top: 1px black solid;
+}
+.suggestions li:hover{
+    text-decoration: underline;
+    color: rgb(100, 100, 218);
+}
+.suggestions2 li:hover{
+    text-decoration: underline;
+    color: rgb(218, 100, 100);
+}
+
