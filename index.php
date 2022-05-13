@@ -11,9 +11,9 @@
 <body>
     <main>
         <h1>Cherchez vos NBA All stars Préférés !!!</h1>
-        <form action="pages/recherche.php" method="get">
+        <form action="view/recherche.php" method="get">
             <section class="search-container">
-                <input type="text" name="player" id="player" placeholder="Rechercher un Joueur de NBA">
+                <input type="text" name="search" id="player" placeholder="Rechercher un Joueur de NBA">
                 <article class="suggestions">
                     <ul></ul>
                 </article>
