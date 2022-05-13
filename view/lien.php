@@ -1,6 +1,6 @@
 <?php
 $idJoueur = isset($_GET['id'])? strip_tags($_GET['id']) :'';
-$bdd = new PDO("mysql:host=localhost;dbname=autocompletion;charset=utf8",'root','root');
+$bdd = new PDO("mysql:host=localhost;dbname=francois-niang_autocompletion;charset=utf8", 'francois-niangac', 'automdp');
 $bdd->setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
 $bdd->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 

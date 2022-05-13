@@ -1,5 +1,5 @@
 <?php
-    $pdo = new PDO('mysql:host=localhost;dbname=autocompletion;charset=utf8', 'root', 'root', [
+    $pdo = new PDO('mysql:host=localhost;dbname=francois-niang_autocompletion;charset=utf8', 'francois-niangac', 'automdp', [
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
     ]);
